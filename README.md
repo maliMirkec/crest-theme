@@ -6,12 +6,23 @@ Crest has no theme files. You set the colors by hand in Crest Studio, one Space 
 
 The colors match the etty themes in `marta-themes` and the Herdr themes in `herdr-theme`.
 
+## Color palette
+
+`Cita.clr` is a macOS color palette with all the Cita colors. It works in any app that uses the system color picker.
+
+```sh
+mkdir -p ~/Library/Colors
+cp Cita.clr ~/Library/Colors/
+```
+
+Restart Crest. In the color picker, open the Color Palettes tab and pick Cita.
+
 ## Set up a Space
 
 1. Right-click a Space and open its Appearance page.
 2. Open Crest Studio and go to the Sidebar step.
 3. Pick Gradient.
-4. Copy the hex values from the tables below into the color pickers.
+4. Pick the colors from the Cita palette, or copy the hex values from the tables below.
 5. Set the text color on the Space's Appearance page.
 
 To start over, use Reset Appearance in the `…` menu.
